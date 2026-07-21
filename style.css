@@ -1,3 +1,12 @@
-* { padding: 0; margin: 0; box-sizing: border-box; font-family: "Roboto", sans-serif; }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
 
-Nav{height: }
+Nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
