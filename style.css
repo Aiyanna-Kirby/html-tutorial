@@ -68,8 +68,14 @@ li {
   justify-content: center;
 }
 
-#about {
-  padding: 48px 0; background-color: #faffdc;
+#About,
+#Discord,
+#Contact {
+  padding: 48px 0;
+}
+
+#About {
+  background-color: #faffdc;
 }
 
 h2 {
@@ -104,4 +110,18 @@ img {
   margin-bottom: 24px;
 }
 
-#discord{background-color: #cefeff;}
+#Discord {
+  background-color: #cefeff;
+}
+
+#Contact {
+  background-color: #dce9ff;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
